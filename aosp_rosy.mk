@@ -16,6 +16,9 @@
 
 $(call inherit-product, device/xiaomi/rosy/full_rosy.mk)
 
+# Bootanimation resolution.
+TARGET_BOOT_ANIMATION_RES := 720
+
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
