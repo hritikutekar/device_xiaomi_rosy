@@ -20,9 +20,9 @@ $(call inherit-product, device/xiaomi/rosy/full_rosy.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
-PRODUCT_NAME := lineage_rosy
+PRODUCT_NAME := aosp_rosy
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
